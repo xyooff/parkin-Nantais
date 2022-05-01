@@ -1,21 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One');
 .dayTime {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  padding-top: 10rem;
+  margin:0;
+  padding-top: 6rem;
   padding-bottom: 5rem;
-  width: 400px;
 }
 .dayTime_title {
-  font-size: 16px;
-}
+    padding: 50px;
+  font-size: 20px;
+  font-family: 'Mochiy Pop One', sans-serif;
+} 
 .border {
-  border: 2px;
-  background-color: rgba(208, 203, 207, 0.8);
-  border-radius: 12px;
-  padding: 10px;
+  font-family: 'Mochiy Pop One', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.dayTime img{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 80vw;
+
+}
+.dayTime_nom {
+margin-top: 10px;
+}
+.dayTime_doublep{
+    margin-top: -50px;
 }

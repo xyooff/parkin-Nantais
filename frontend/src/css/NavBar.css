@@ -121,4 +121,7 @@
   .show-nav .slideInDown-1 {
     transition: all 1s ease-out;
   }
+  .show-nav .border{
+    color: aqua;
+  }
 }
