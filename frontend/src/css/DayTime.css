@@ -1,22 +1,21 @@
-.dayTime{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-    width: 400px;
+.dayTime {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  width: 400px;
 }
-.dayTime_title{
-    font-size: 16px;
+.dayTime_title {
+  font-size: 16px;
 }
-.border{
-    border: 2px;
-    background-color:rgba(208, 203, 207, 0.8) ;
-    border-radius: 12px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.border {
+  border: 2px;
+  background-color: rgba(208, 203, 207, 0.8);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

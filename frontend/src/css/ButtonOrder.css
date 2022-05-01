@@ -1,18 +1,18 @@
-.buttonOrder{
-display: flex;
-flex-direction: column;
-align-items: center;
+.buttonOrder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.buttonOrder_title{
-text-align: center;
-font-size: 1rem;
-padding: 20px;
+.buttonOrder_title {
+  text-align: center;
+  font-size: 1rem;
+  padding: 20px;
 }
 
-.buttonOrder_button{
-border: 0;
-width: 20vh;
-background-color:rgba(208, 203, 207, 0.8) ;
-padding: 15px;
-box-shadow: 5px 5px 10px 1px rgba(119, 62, 199, 1);
+.buttonOrder_button {
+  border: 0;
+  width: 20vh;
+  background-color: rgba(208, 203, 207, 0.8);
+  padding: 15px;
+  box-shadow: 5px 5px 10px 1px rgba(119, 62, 199, 1);
 }

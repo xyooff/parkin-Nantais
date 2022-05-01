@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/ButtonOrder.css"
+import "../css/ButtonOrder.css";
 
 function ButtonOrder() {
   return (
