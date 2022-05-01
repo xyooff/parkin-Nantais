@@ -15,7 +15,7 @@ function DayTime() {
         <img src="./src/assets/banniere.jpg" alt="banniere" />
         <h1 className="dayTime_title">Parking Nantais</h1>
         <div className="dayTime_doublep">
-          <p className="dayTime_nom">dispo :</p>
+          <p className="dayTime_nom dkf">dispo :</p>
           <p className="dayTime_nom">{clock()}</p>
         </div>
       </div>
