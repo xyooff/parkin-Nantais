@@ -17,7 +17,7 @@
 
 .navbar_link {
   padding: 0 1rem;
-  color:rgba(208, 203, 207, 0.8);
+  color: rgba(208, 203, 207, 0.8);
 }
 .navbar_burger {
   width: 40px;
@@ -26,15 +26,15 @@
   border: none;
   color: inherit;
 }
-.navbar_logo img{
-    width: 60px;
-    height: 60px;
+.navbar_logo img {
+  width: 60px;
+  height: 60px;
 }
 
- @media screen and (max-width: 700px) {
-  .navbar_logo img{
-      width: 60px;
-      height: 60px;
+@media screen and (max-width: 700px) {
+  .navbar_logo img {
+    width: 60px;
+    height: 60px;
   }
   .navbar_links {
     flex-direction: column;
@@ -47,24 +47,24 @@
     padding: 2rem;
     visibility: hidden;
     background-color: rgba(119, 62, 199, 1);
-    transition: all .8s;
+    transition: all 0.8s;
   }
-  .navbar_item{
-      padding: 10px;
+  .navbar_item {
+    padding: 10px;
   }
   .show-nav .navbar_links {
     width: 100vw;
     right: 0;
     visibility: visible;
   }
-  .navbar_item::after{
-      content: "";
-      display: block;
-      margin: 0 auto;
-      margin-top: 8px;
-      width: 5vw;
-      height: 1px;
-      background-color: rgba(208, 203, 207, 0.8);
+  .navbar_item::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    width: 5vw;
+    height: 1px;
+    background-color: rgba(208, 203, 207, 0.8);
   }
   .navbar_link {
     display: block;
@@ -81,7 +81,7 @@
     right: 1rem;
   }
   .burger-bar,
-  .burger-bar::before, 
+  .burger-bar::before,
   .burger-bar::after {
     display: block;
     width: 40px;
@@ -89,7 +89,7 @@
     position: relative;
     border-radius: 3px;
     background-color: rgba(208, 203, 207, 0.8);
-    transition: linear .5s ;
+    transition: linear 0.5s;
   }
   .burger-bar::before,
   .burger-bar::after {
@@ -103,26 +103,22 @@
   .burger-bar::before {
     transform: translateY(-12px);
   }
-  .show-nav 
-  .burger-bar::before{
-      transform: rotate(45deg);
+  .show-nav .burger-bar::before {
+    transform: rotate(45deg);
   }
-  .show-nav .burger-bar::after{
+  .show-nav .burger-bar::after {
     transform: rotate(-45deg);
   }
-  .show-nav .burger-bar{
-      background: transparent;
+  .show-nav .burger-bar {
+    background: transparent;
   }
-  .navbar_item{
-      transform: translateY(100vh);
+  .navbar_item {
+    transform: translateY(100vh);
   }
-  .show-nav 
-  .navbar_item{
-      transform: translateY(0);
+  .show-nav .navbar_item {
+    transform: translateY(0);
   }
-  .show-nav
-  .slideInDown-1{
-      transition: all 1s ease-out;
+  .show-nav .slideInDown-1 {
+    transition: all 1s ease-out;
   }
-
 }

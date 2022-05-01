@@ -1,26 +1,24 @@
-table{
-background-color: rgba(208, 203, 207, 0.8);
+table {
+  background-color: rgba(208, 203, 207, 0.8);
 }
-.parkingtable{
-    display: flex;
-    justify-content: center;
-    
+.parkingtable {
+  display: flex;
+  justify-content: center;
 }
-.parkingtable_name{
-    display: flex;
-    justify-content: center;
+.parkingtable_name {
+  display: flex;
+  justify-content: center;
 }
-.parkingtable_available{
-    display: flex;
-    justify-content: center;
-    width: 100px;
+.parkingtable_available {
+  display: flex;
+  justify-content: center;
+  width: 100px;
 }
 
 .parkingtable_ok,
-.parkingtable_notok{
-    text-align: center;
+.parkingtable_notok {
+  text-align: center;
 }
-tbody tr:nth-child(odd){
-    background-color:rgba(119, 62, 199, 0.3);
+tbody tr:nth-child(odd) {
+  background-color: rgba(119, 62, 199, 0.3);
 }
-
