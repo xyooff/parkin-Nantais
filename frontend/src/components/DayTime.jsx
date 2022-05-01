@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/DayTime.css";
-import DayJS from "react-dayjs";
 
 function DayTime() {
   function clock() {
@@ -12,9 +11,11 @@ function DayTime() {
   }
   return (
     <div className="dayTime">
-      <h1 className="dayTime_title">Parking Nantais</h1>
-      <p className="dayTime_nom">Nombre de place libre</p>
-      <p>{clock()};</p>
+      <div className="border">
+        <h1 className="dayTime_title">Parking Nantais</h1>
+        <p className="dayTime_nom">dispo :</p>
+        <p>{clock()}</p>
+      </div>
     </div>
   );
 }

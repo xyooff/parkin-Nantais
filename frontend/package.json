@@ -10,6 +10,7 @@
     "fix": "prettier --write . && eslint --fix --ext .jsx ."
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "dayjs": "^1.11.1",
     "react": "^17.0.2",
     "react-dayjs": "^0.3.2",

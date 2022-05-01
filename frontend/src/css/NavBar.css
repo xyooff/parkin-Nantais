@@ -7,7 +7,7 @@
   width: 100%;
   min-height: 75px;
   padding: 1rem;
-  background-color: #0080FF;
+  background-color: rgba(119, 62, 199, 1);
   color: antiquewhite;
 }
 
@@ -17,7 +17,7 @@
 
 .navbar_link {
   padding: 0 1rem;
-  color:antiquewhite;
+  color:rgba(208, 203, 207, 0.8);
 }
 .navbar_burger {
   width: 40px;
@@ -46,7 +46,7 @@
     height: 100vh;
     padding: 2rem;
     visibility: hidden;
-    background-color: #0080FF;
+    background-color: rgba(119, 62, 199, 1);
     transition: all .8s;
   }
   .navbar_item{
@@ -64,7 +64,7 @@
       margin-top: 8px;
       width: 5vw;
       height: 1px;
-      background-color: white;
+      background-color: rgba(208, 203, 207, 0.8);
   }
   .navbar_link {
     display: block;
@@ -88,7 +88,7 @@
     height: 3px;
     position: relative;
     border-radius: 3px;
-    background-color: white;
+    background-color: rgba(208, 203, 207, 0.8);
     transition: linear .5s ;
   }
   .burger-bar::before,
